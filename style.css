@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  background: #d3efdf;
+  background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 25px;
+  max-width: 70%;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+#header{
+  color: #Fff;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b1c9bb;
+  padding: 0 0 10px;
+  color: #57635c;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+}
+#addTask{
+  border: 0;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 3px;
+  background: #00b09b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.new-task-container {
+  text-align: center;
+}
+.new-task-container label{
+  display: block;
+  margin-bottom: 10px;
+}
+.new-task-container input{
+  padding: 10px 15px;
+  width: 70%;
+}
+.new-task-container input[type="submit"]{
+  width: auto;
+  min-width: 200px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.box {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 15px 0;
+}
+
+.todo-list {
+  float: left;
+  width: 46%;
+}
+
+.complete-list {
+  float: right;
+  width: 46%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.update {
+  float: right;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
+
+.delete {
+  float: right;
+  background-color: red;
+  background: #bc4e9c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.delete img{
+  max-width: 20px;
+}
